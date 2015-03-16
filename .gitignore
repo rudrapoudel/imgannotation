@@ -7,4 +7,5 @@
 /doc/*.pyc
 /doc/*.txt
 /doc/*.odt
+/test_images/*mask*
 
