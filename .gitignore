@@ -1,0 +1,10 @@
+# Ignore the following files
+*~
+.DS_Store
+.gitignore.swp
+/build*
+/doc/*~
+/doc/*.pyc
+/doc/*.txt
+/doc/*.odt
+

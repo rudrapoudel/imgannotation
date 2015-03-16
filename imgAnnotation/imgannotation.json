@@ -1,0 +1,24 @@
+{
+  "author": "Rudra Poudel",
+  "difficulty level": ["Easy", "Medium", "Difficult"],
+  "label type": ["One", "Two", "Three"],
+  "masks": [
+     {
+        "name": "Background",
+        "color": [0, 0, 0]
+     },
+     {
+        "name": "Foreground-1",
+        "color": [255, 0, 0]
+     },
+     {
+        "name": "Foreground-2",
+        "color": [0, 255, 0]
+     },
+     {
+        "name": "Foreground-3",
+        "color": [0, 0, 255]
+     }
+   ]
+
+}
