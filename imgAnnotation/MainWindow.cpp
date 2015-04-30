@@ -141,7 +141,7 @@ MainWindow::MainWindow(QWidget *parent, Qt::WindowFlags flags)
     iObjMask = 1;
     iOccludedObjMask = 2;
 
-    brushSizes << 1 << 3 << 5 << 10 << 15 << 20 << 30 << 50 << 100;
+    brushSizes << 1 << 3 << 5 << 10 << 15 << 20 << 25 << 30 << 35 << 37 << 40 << 50 << 100;
     maxHistorySize = 10;
 
     // fill some widgets with data
@@ -887,7 +887,7 @@ void MainWindow::refreshImgView()
     // read in all images in all collected directories
     // add all files and directories to the QTreeWidget
     QStringList nameFilters;
-    nameFilters << "*.jpg" << "*.png" << "*.bmp";
+    nameFilters << "*.jpg" << "*.jpeg" << "*.png" << "*.bmp";
     for (int i = 0; i < dirs.size(); i++) {
         // get all images in the current directory
         QDir currentDir(currentlyOpenedDir + dirs[i]);
