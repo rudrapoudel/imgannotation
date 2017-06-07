@@ -18,7 +18,7 @@ The app called ImgAnnotation is then generated after running the above commands.
 
 ## How to Use the App
 
-* 1: Click on the top nav bar - select Database, open directory <see screenshot>
+* 1: Click on the top nav bar - select Database, open directory
 * 2: Once you have chosen your directory, click open
 * 3: You need to add an object under "Object for Image"
 * 4: And then you can draw on the images
